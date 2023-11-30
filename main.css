@@ -1,0 +1,129 @@
+/* Resetting default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Header styles */
+  .header {
+    background-color: #060C1C;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 100px;
+    height: auto;
+  }
+  
+  .menu-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
+  }
+  
+  .menu-item {
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .menu-item:hover {
+    color: #ff4500;
+  }
+  
+  /* Main content styles */
+  .main-content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex: 1;
+  }
+  
+  .left-content,
+  .right-content {
+    flex-basis: calc(50% - 20px);
+    margin-bottom: 20px;
+  }
+  
+  .left-content img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .left-content p {
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact-form textarea {
+    height: 100px;
+  }
+  
+  .contact-form button {
+    padding: 10px 15px;
+    background-color: #ff4500;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background-color: #cc3700;
+  }
+  
+  /* Footer styles */
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #333;
+    color: #fff;
+    padding: 15px 0;
+    margin-top: auto;
+  }
+  
+  .footer-items {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .footer-item {
+    cursor: pointer;
+    transition: color 0.3s ease;
+    margin: 0 10px;
+  }
+  
+  .footer-item:hover {
+    color: #ff4500;
+  }
+  
